@@ -1,0 +1,33 @@
+.index {
+  width: 95%;
+  margin: auto auto;
+  .input-container {
+    display: flex;
+    align-items: center;
+    .input {
+      display: inline-block;
+      border: 1px solid #666;
+      height: 60px;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .content {
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+  }
+  .add, .del {
+    font-size: 24px;
+    height: 60px;
+    padding: 0;
+    flex-basis: 140px;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+}
+
